@@ -2,7 +2,7 @@ $('input').keypress(function (event) {
   if (event.which === 13) {
     var todoText = $(this).val();
     $(this).val("");
-    $('ul').append('<li>' + todoText + '<span><i class="bookedList"</i></span>');
+    $('ul').append('<li>' + todoText + '<span><i class="fa fa-trash"</i></span>');
   }
 });
 
