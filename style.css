@@ -1,6 +1,6 @@
 body {
   font-family     : 'Bubblegum Sans';
-  background-color: #7a8ac9;
+  background-color: #b9c5f1;
   color           : #f7f7f7;
 }
 
@@ -9,16 +9,18 @@ ul {
   margin    : 0;
   padding   : 0;
 }
-::placeholder { 
-  color:#155a7c;;
-  font-size : 13px;
-  opacity: 1; 
+
+::placeholder {
+  color: #155a7c;
+  ;
+  font-size: 13px;
+  opacity  : 1;
 }
 
 #container {
   width     : 360px;
   margin    : 100px auto;
-  box-shadow: 0 0 3px rgba(88, 49, 49, 0.5);
+  box-shadow: 0 0 3px rgba(49, 85, 88, 0.486);
 }
 
 input {
@@ -44,7 +46,7 @@ span {
 }
 
 h1 {
-  background-color: #27343a;
+  background-color: #24292E;
   margin          : 0;
   padding         : 10px 20px;
   text-transform  : uppercase;
